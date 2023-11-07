@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: AKIA2LOFPERPQALXIT2E.dkr.ecr.us-east-1.amazonaws.com/flask-web-app
+  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/flask-web-app
   pullPolicy: IfNotPresent
   tag: "latest"
 
